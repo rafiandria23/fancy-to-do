@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@libs/api-auth": ["libs/api-auth/src/index.ts"],
+      "@libs/api-common": ["libs/api-common/src/index.ts"],
+      "@libs/api-db": ["libs/api-db/src/index.ts"],
+      "@libs/api-docs": ["libs/api-docs/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
